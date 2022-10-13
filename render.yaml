@@ -2,6 +2,7 @@ services:
 - type: web
   name: minio
   healthCheckPath: /minio/health/live
+  region: ohio
   env: docker
   dockerfilePath: ./Dockerfile
   dockerContext: .
