@@ -9,6 +9,7 @@ services:
   disk:
     name: data
     mountPath: /data
+    sizeGB: 1000
   envVars:
   - key: MINIO_ROOT_USER
     generateValue: true
