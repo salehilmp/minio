@@ -3,6 +3,7 @@ services:
   name: minio
   healthCheckPath: /minio/health/live
   region: ohio
+  plan: standard
   env: docker
   dockerfilePath: ./Dockerfile
   dockerContext: .
